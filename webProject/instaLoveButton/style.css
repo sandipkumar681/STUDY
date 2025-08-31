@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer {
+  background-color: white;
+  overflow: hidden;
+}
+.mainContainer img {
+  /* max-width: 10vw; */
+  max-height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.mainContainer i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  opacity: 0;
+}

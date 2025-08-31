@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursor {
+    height: 50px;
+    background-color: white;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0s;
+}
+
+.container1 {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container1 h2 {
+    font-size: 10vw;
+    color: white;
+}
+
+.mainContainer {
+    position: relative;
+}
